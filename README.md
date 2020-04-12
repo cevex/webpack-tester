@@ -5,6 +5,7 @@ This is a test project to enjoy the feature of webpack.
 ## Goals
 
 * Bundle a typescript application with webpack
+* Take advantage of Tree-shaking  by filtering unused class in final bundle
 * Handle production errors with source-map
 * Analysing how to decrease bundle size by using 'smart' import with lodash
 * Allow quick development

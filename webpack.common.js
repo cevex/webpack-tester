@@ -4,6 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/',
+    optimization: {
+        usedExports: true,
+    },
     module: {
         rules: [
             {
@@ -13,6 +16,7 @@ module.exports = {
             },
         ],
     },
+
     resolve: {
         extensions: ['.ts', '.js'],
     },
