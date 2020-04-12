@@ -1,6 +1,7 @@
 /**
  * This service is not imported anywhere
  */
+// tslint:disable:no-console
 export class LoggerService {
 
     info(...message: any[]): void {

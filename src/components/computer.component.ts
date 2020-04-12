@@ -1,4 +1,4 @@
-import {MathService} from "../common/math.service";
+import { MathService } from '../common/math.service';
 
 export class ComputerComponent {
 
@@ -13,6 +13,6 @@ export class ComputerComponent {
 
     private getText() {
         const result = this.mathService.square(this.number);
-        return `MATH : ${this.number} square is equal to : ${result}`;
+        return `MATH : ${this.number} square is equal to ${result}`;
     }
 }

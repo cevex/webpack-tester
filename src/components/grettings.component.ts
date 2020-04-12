@@ -1,8 +1,8 @@
 // import join from "lodash";                   // All lodash in bundle (86k)
 // import {capitalize, join} from "lodash";     // All lodash in bundle (86k)
 
-import capitalize from "lodash/capitalize"; // Only function in bundle
-import join from "lodash/join"; // Only function in bundle
+import capitalize from 'lodash/capitalize'; // Only function in bundle
+import join from 'lodash/join'; // Only function in bundle
 
 export class GreetingsComponent {
 
