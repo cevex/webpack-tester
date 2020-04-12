@@ -7,7 +7,7 @@ const titleComponent = new TitleComponent();
 
 // Add components in the DOM
 
-document.body.appendChild(titleComponent.build('Greetings : '));
+document.body.appendChild(titleComponent.build('Greeting : '));
 document.body.appendChild(new GreetingsComponent().build());
 
 document.body.appendChild(titleComponent.build('Compute : '));
